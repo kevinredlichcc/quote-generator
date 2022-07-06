@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+
+.attribution {
+  display: flex;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 100px;
+  color: grey;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 2px;
+}
+
+.attribution p {
+  color: whitesmoke;
+  letter-spacing: 2px;
+}
+
+html {
+  background: hsl(217, 19%, 24%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  margin-top: 150px;
+  width: 500px;
+  background-color: hsl(217, 19%, 38%);
+  height: 280px;
+  border-radius: 15px;
+  position: relative;
+  margin-right: 10px;
+  word-wrap: break-word;
+  font-family: 'Quicksand', sans-serif;
+  border: 1px whitesmoke solid;
+}
+
+.advice-container {
+  height: 130px;
+  box-sizing: border-box;
+}
+
+.advice-number {
+  color: hsl(150, 100%, 66%);
+  padding-top: 25px;
+  font-size: 18px;
+  margin-bottom: 65px;
+}
+
+#quote {
+  color: whitesmoke;
+  overflow-y: auto;
+  max-height: 45px;
+  padding: 15px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.dice-btn {
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  border: none;
+  width: 50px;
+  height: 50px;
+  margin-top: 120px;
+  cursor: pointer;
+  border: 2px solid whitesmoke;
+}
